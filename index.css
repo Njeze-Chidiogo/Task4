@@ -1,0 +1,56 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+.container{
+display: grid;
+border-radius: 10px;
+width: 500px;
+height:400px;
+grid-template-columns:1fr 1fr;
+margin:100px 400px;
+}
+
+.written{
+    background-color: hsl(0, 0%, 100%);
+    padding:20px;
+    border-radius: 0 10px 10px 0;
+}
+#img{
+    border-radius: 10px 0 0 10px;
+    width: 250px;
+    height:400px;
+}
+h1{
+  color: hsl(158, 36%, 37%);
+  font-weight: 700;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+   color: hsl(228, 12%, 48%); 
+   font-size: 14px;
+   font-weight: 500;
+}
+
+span{
+    color: hsl(228, 12%, 48%);
+    font-size: small;
+    text-decoration: line-through;
+    margin-top: -20px;
+    
+}
+.add{
+    width:200px;
+    height: 35px;
+    background-color:hsl(158, 36%, 37%);
+    border-radius: 7px;
+    align-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+h4{
+    color:hsl(0, 0%, 100%) ;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
